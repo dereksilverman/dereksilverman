@@ -1,11 +1,151 @@
-<!DOCTYPE=html>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrowdTangle</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/modernizr.js"></script>
 
-<html>
-	<head>
-		<title>Derek Silverman</title>
-		<link href="/styles.css" rel="stylesheet">
-	</head>
-	<body>
-	<%= yield %>
-	</body>
+    <style>
+
+    .top-bar {
+
+        height: 75px;
+        background-color: #1b1b1b;
+        background-image: -moz-linear-gradient(top, #222222, #111111);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+        background-image: -webkit-linear-gradient(top, #222222, #111111);
+        background-image: -o-linear-gradient(top, #222222, #111111);
+        background-image: linear-gradient(to bottom, #222222, #111111);
+        background-repeat: repeat-x;
+        border-color: #252525;
+    }
+
+    .top-bar img {
+      margin-top: 15px;
+      padding-left: 15rem;
+    }
+
+    .top-bar-section ul li > a {
+      background-color: transparent !important;
+    }
+
+    .top-bar-section ul li > a {
+      height: 65px;
+    }
+
+    .top-bar-section ul {
+      background-color: transparent !important;
+    }
+
+    .top-bar-section {
+      padding-top: 10px;
+      padding-right: 15rem;
+    }
+
+    </style>
+
+  </head>
+  
+  <body>
+
+  <nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href=""><img src="./img/crowdtangle_logo.png"></img></a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Features</a></li>
+      <li class="active"><a href="#">Clients</a></li>
+      <li class="active"><a href="#">Request An Invite</a></li>
+    </ul>
+
+
+</nav>
+
+ 
+<ul class="example-orbit" data-orbit>
+  <li>
+    <img src="./img/overperforming.png" alt="slide 1" />
+  </li>
+  <li>
+    <img src="./img/overperforming.png" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="./img/overperforming.png" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
+
+<div class="row" style="padding-top: 100px;">
+  <div class="small-5 columns"><img src="./img/imacview.png"></img></div>
+    <div class="small-7 columns"><h1>What's trending on Facebook?</h1>
+    <img src="./img/scoring.png"></img>
+    </div>
+</div>
+
+
+<div class="row" style="padding-top: 100px;">
+    <div class="small-7 columns"><h1>Your Facebook referral traffic is way up today. Who is driving your traffic?</h1></div>
+      <div class="small-5 columns"><img src="./img/HandwithiPhone5.png"></img></div>
+</div>
+
+
+<div class="row" style="padding-top: 100px;">
+  <div class="small-5 columns"><img src="./img/imacview.png"></img></div>
+    <div class="small-7 columns"><h1>Don't have time for another dashboard?</h1></div>
+</div>
+
+
+<div class="row" style="padding-top: 100px;">
+  <div class="small-7 columns"><h1>Track keywords that matter.</h1></div>
+    <div class="small-5 columns"><h1><img src="./img/HandwithiPhone5.png"></img></h1></div>
+</div>
+
+
+
+    <div class="row" style="padding-top: 50px;">
+      <div class="large-12 columns" style="padding-top: 50px">
+        <h1>Clients</h1>
+        <h5>We have the best clients in the world. Take a peek!</h5>
+      </div>
+    </div>
+
+     <div class="row">
+
+        <ul class="small-block-grid-3">
+      <li><img src="./img/upworthylogo_client.png"></li>
+      <li><img src="./img/cnn_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+      <li><img src="./img/refinery29_client.png"></li>
+
+    </ul>
+  
+
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
