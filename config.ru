@@ -1,3 +1,3 @@
 require './app'
 
-run DerekSilverman::Website
+run DS::PersonalWebsite
